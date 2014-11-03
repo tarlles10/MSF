@@ -1,0 +1,62 @@
+
+					<html>
+					<head>
+					<title>ParkImovel</title>
+					<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+					</head>
+					<style>
+						.adm_fonteTextoGrupo_01{
+							font-family: Verdana, Arial, Helvetica, sans-serif;
+							font-size: 10px;
+							color: #000000;
+							text-align: justify;
+							text-decoration: none;
+						}
+						.adm_fonteTextoGrupo_01 a{
+							font-family: Verdana, Arial, Helvetica, sans-serif;
+							font-size: 10px;
+							color: #000000;
+							text-align: justify;
+							text-decoration: none;
+						}
+						.adm_fonteTextoGrupo_01 a:hover{
+							font-family: Verdana, Arial, Helvetica, sans-serif;
+							font-size: 10px;
+							color: <?php echo $objConfiguracao->getCorTopGrupo();?>;
+							text-align: justify;
+							text-decoration: none;
+						}
+						.adm_fonteTextoGrupo_01 a:visited{
+							font-family: Verdana, Arial, Helvetica, sans-serif;
+							font-size: 10px;
+							color: #000000;
+							text-align: justify;
+							text-decoration: none;
+						}					
+					</style>
+					<body bgcolor="#FFFFFF">
+					<form name="frm" method="post" action="">
+					<span class="adm_fonteTextoGrupo_01" style="text-align:center;">
+					<table width="770" height="984" border="0" cellpadding="0" cellspacing="0" >
+						<tr>
+							<td>
+								<img src="http://localhost/IMOBILIARIA/MSF/publicidade/images/publicidade_01.jpg" width="770" height="440" alt=""></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="http://localhost/IMOBILIARIA/MSF/publicidade/images/publicidade_02.jpg" width="770" height="162" alt=""></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="http://localhost/IMOBILIARIA/MSF/publicidade/images/publicidade_03.jpg" width="770" height="161" alt=""></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="http://localhost/IMOBILIARIA/MSF/publicidade/images/publicidade_04.jpg" width="770" height="221" alt=""></td>
+						</tr>
+					</table>
+					<a href="http://localhost/IMOBILIARIA/MSF/index.php?cod=Solucoes" target="_blank">parkimovel.com</a>
+					</span>
+					</form>
+					</body>
+					</html>

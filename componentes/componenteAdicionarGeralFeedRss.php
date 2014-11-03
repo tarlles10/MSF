@@ -1,0 +1,1 @@
+<link rel="alternate" type="application/rss+xml" title="<?php echo $objRssFeed->getTituloRss();?>" href="rssfeed_ready.php" />
